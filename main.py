@@ -1,9 +1,9 @@
 import os, requests, random, threading, json, time, multiprocessing
 from colorama import Fore
 
-# Credit to Pycenter by billythegoat356
-# Github: https://github.com/billythegoat356/pycenter/
-# License: https://github.com/billythegoat356/pycenter/blob/main/LICENSE
+# Credit to 2le
+# Github: https://github.com/2leDev
+# License: https://github.com/2leDev/Nitro-Generator/blob/main/LICENSE
 
 def center(var:str, space:int=None): # From Pycenter
     if not space:
