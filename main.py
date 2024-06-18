@@ -15,12 +15,14 @@ class Console():
     def ui(self):
         os.system(f'cls && title [DNG] Discord Nitro Generator  ^|  For Help join discord.gg/kaneki' if os.name == "nt" else "clear")
         print(center(f"""\n\n
-██████╗ ███╗   ██╗ ██████╗ 
-██╔══██╗████╗  ██║██╔════╝            ~ Discord Nitro Generator ~
-██║  ██║██╔██╗ ██║██║  ███╗     
-██║  ██║██║╚██╗██║██║   ██║     github.com/kanekiWeb ~ skulldev.ga
-██████╔╝██║ ╚████║╚██████╔╝ 
-╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ \n\n
+  _   _ _ _             _____ __  __ 
+ | \ | (_) |           / ____|  \/  |
+ |  \| |_| |_ _ __ ___| (___ | \  / |
+ | . ` | | __| '__/ _ \\___ \| |\/| |
+ | |\  | | |_| | | (_) |___) | |  | |
+ |_| \_|_|\__|_|  \___/_____/|_|  |_|
+                                     
+                                     \ n\n
               """).replace('█', Fore.CYAN+"█"+Fore.RESET).replace('~', Fore.CYAN+"~"+Fore.RESET).replace('-', Fore.CYAN+"-"+Fore.RESET))
 
     def printer(self, color, status, code):
